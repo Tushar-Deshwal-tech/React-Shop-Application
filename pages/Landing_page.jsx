@@ -6,6 +6,9 @@ import { images, category_images } from "../components/import_images";
 import Category from "../components/Category";
 
 function Landing_page() {
+  const firstThreeImages = category_images.slice(0, 3);
+  const nextFourImages = category_images.slice(3);
+
   return (
     <div className="landing-main">
       <div><Sliding_images images={images} /></div>
@@ -13,10 +16,14 @@ function Landing_page() {
       <div className='category-text'>CATEGORIES</div>
       <div className='category-section'>
         <div className='three-colum'>
-          {category_images.map((image, index) => (
-            <Category key={index} images={image} />
+          {firstThreeImages.map((image, index) => (
+            <Category key={index} image={image} />
           ))}
-          
+        </div>
+        <div className='four-colum'>
+          {nextFourImages.map((image, index) => (
+            <Category key={index} image={image} />
+          ))}
         </div>
       </div>
     </div>
