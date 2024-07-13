@@ -1,13 +1,9 @@
 import React from 'react';
-import './css/Category.css';
 
-
-function Category({image}) {
+function Category({ image, className }) {
   return (
-    <div className='category_main'>
-      <div className='image'>
-        <img src={image} alt="Image" />fsfd
-      </div>
+    <div className={className}>
+      <img src={image} alt="Category" />
     </div>
   );
 }
