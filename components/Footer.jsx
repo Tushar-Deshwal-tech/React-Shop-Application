@@ -5,7 +5,7 @@ import logo from "../logo-150x122.png";
 function Footer() {
   return (
     <div className="footer-main">
-      <div className="upper-line"></div>
+      <div className="footer-upper-line"></div>
       <div className="footer-content">
         <div className="first-content">
           <div>
@@ -45,7 +45,7 @@ function Footer() {
           <div>100% Secure Payment:</div>
         </div>
       </div>
-      <div className="lower-line"></div>
+      <div className="footer-lower-line"></div>
     </div>
   );
 }

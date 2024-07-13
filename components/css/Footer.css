@@ -6,13 +6,13 @@
     margin-top: 40px;
 }
 
-.upper-line {
+.footer-upper-line {
     background: linear-gradient(to right, #E26040, #F08A39);
     width: 100%;
     height: 10vh;
 }
 
-.lower-line {
+.footer-lower-line {
     background: linear-gradient(to right, #E26040, #F08A39);
     width: 100%;
     height: 15vh;
