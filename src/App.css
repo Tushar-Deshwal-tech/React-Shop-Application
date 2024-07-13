@@ -1,10 +1,21 @@
-header {
+/* App.css */
+
+html, body, #root {
   width: 100%;
-  height: 10vh;
-  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.landing-page{
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.landing-page {
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100vh;
-  margin-top: 11vh;
+  margin-top: 20px;
 }

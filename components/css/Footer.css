@@ -1,0 +1,46 @@
+/* Footer.css */
+
+.footer-main {
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.upper-line {
+    background: linear-gradient(to right, #E26040, #F08A39);
+    width: 100%;
+    height: 10vh;
+}
+
+.lower-line {
+    background: linear-gradient(to right, #E26040, #F08A39);
+    width: 100%;
+    height: 15vh;
+}
+
+.footer-content {
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-content{
+    background-color: red;
+    width: 30%;
+    height: auto;
+}
+
+.footer-text{
+    margin: 40px 0px;
+}
+.second-content{
+    width: 70%;
+    height: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

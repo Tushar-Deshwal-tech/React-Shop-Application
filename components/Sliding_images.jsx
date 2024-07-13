@@ -21,7 +21,7 @@ function Sliding_images({ images }) {
   };
 
   return (
-    <div>
+    <div> 
       <div className="slide-images">
         <div className="arrows">
           <img src={left} alt="Left-icon" onClick={handlePrev} />
