@@ -1,15 +1,19 @@
 import './App.css';
-import Header from '../components/Header';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing_page from '../pages/Landing_page';
-import Footer from '../components/Footer';
+import Mens from '../pages/Mens';
+import Layout from './Layout';
 
 function App() {
   return (
-    <div className="app-container">
-      <header><Header /></header>
-      <div className='landing-page'><Landing_page /></div>
-      <footer><Footer /></footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Landing_page />} />
+          <Route path="Mens" element={<Mens />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 

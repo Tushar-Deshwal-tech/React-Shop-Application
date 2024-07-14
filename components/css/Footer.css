@@ -71,7 +71,6 @@
 
 .footer-table-content table {
     width: 100%;
-    border-collapse: collapse;
     font-size: 14px;
 }
 
@@ -79,13 +78,16 @@
 .footer-table-content td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
 }
 
 .footer-table-content th {
     font-size: 20px;
     font-weight: bold;
     color: rgb(223, 89, 64);
+}
+
+.footer-table-content td{ 
+    padding-left: 20px;
 }
 
 .payment-section{
