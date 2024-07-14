@@ -14,10 +14,19 @@ function Mens() {
   return (
     <div>
       <div className="mens-page">MENS PRODUCTS</div>
-      <div>
+      <div className="products">
+        {Men_Products_Data.map((product, index) => (
+          <div className="products-images" key={index}>
+            <img className="products-image1" src={product.imageLink1} alt={product.productName} />
+            <img className="products-image2" src={product.imageLink2} alt={product.productName} />
+            <div className="add-to-cart"></div>
+          </div>
+        ))}
+      </div>
+      <div className="mens_sliding_image">
         <Sliding_images images={mens_sliding_image} />
       </div>
-      <div className="mens-text">CATEGORIES</div>
+      <div className="mens-text">FEATURED PRODUCTS</div>
       <div className="mens-products">
         <div className="three-column">
           {mensfirstThreeImages.map((image, index) => (
@@ -33,15 +42,6 @@ function Mens() {
             </div>
           ))}
         </div>
-      </div>
-      <div className="mens-text">FEATURED PRODUCTS</div>
-      <div className="products">
-        {Men_Products_Data.map((product, index) => (
-          <div className="products-images" key={index}>
-            <img className="products-image1" src={product.imageLink1} alt={product.productName} />
-            <img className="products-image2" src={product.imageLink2} alt={product.productName} />
-          </div>
-        ))}
       </div>
     </div>
   );

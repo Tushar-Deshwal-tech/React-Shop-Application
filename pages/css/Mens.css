@@ -4,7 +4,11 @@
     font-size: 30px;
     text-align: center;
     color: rgb(223, 89, 64);
-    margin-top: 40px;
+    margin-top: 20px;
+}
+
+.mens_sliding_image{
+    border-top: 2.5px solid black;
 }
 
 .mens-products {
@@ -69,13 +73,12 @@
 .products {
     width: 80%;
     height: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 30px;
+    gap: 40px;
 }
 
 .products-images{
@@ -91,17 +94,40 @@
 
 .products-images img {
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     cursor: pointer;
     object-fit: cover;
     transition: transform 0.8s ease-in-out;
 }
 
 .products-image2{
-    display: none;
+    opacity: 0;
+    position: absolute;
 }
 
-.products-images:hover img{
-    transform: scale(1.5);
-    display: block;
+.products-images:hover .products-image2{
+    transform: scale(1.2);
+    opacity: 1;
 }
+.products-images:hover .products-image1{
+    transform: scale(1.2);
+    opacity: 0;
+}
+.add-to-cart {
+    position: absolute;
+    top: 26%;
+    right: 0%;
+    transform: translateY(-50%);
+    background-color: red;
+    width: 18%;
+    height: 22vh;
+    border-radius: 10px;
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    background: white;
+  }
+  
+  .products-images:hover .add-to-cart {
+    transform: translateX(-20%) translateY(-50%);
+    opacity: 1;
+  }
