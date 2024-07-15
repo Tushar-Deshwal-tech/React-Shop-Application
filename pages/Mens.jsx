@@ -2,7 +2,7 @@ import React from "react";
 import "./css/Mens.css";
 import Sliding_images from "../components/Sliding_images";
 import Men_Products_Data from "../Men_Products_Data.jsx";
-import heart from '../icons/heart.svg';
+import heart from "../icons/heart.svg";
 import {
   mens_sliding_image,
   mens_category_image,
@@ -19,18 +19,25 @@ function Mens() {
         {Men_Products_Data.map((product, index) => (
           <div>
             <div className="products-images" key={index}>
-              <img className="products-image1" src={product.imageLink1} alt={product.productName} />
-              <img className="products-image2" src={product.imageLink2} alt={product.productName} />
+              <img
+                className="products-image1"
+                src={product.imageLink1}
+                alt={product.productName}
+              />
+              <img
+                className="products-image2"
+                src={product.imageLink2}
+                alt={product.productName}
+              />
               <div className="products-options">
                 <img src={heart} alt="Wishlist" />
                 <img src={heart} alt="Wishlist" />
               </div>
               <div className="add-to-cart">Add to Cart</div>
             </div>
-            <h3 className="product-name">{product.productName}</h3>
             <div className="product-info">
+              <h3 className="product-name">{product.productName}</h3>
               <p className="product-price">Price: ${product.price}</p>
-              <p className="product-price">Rating: {product.rating}</p>
             </div>
           </div>
         ))}
