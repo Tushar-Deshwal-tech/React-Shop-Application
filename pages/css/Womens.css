@@ -1,4 +1,4 @@
-.text {
+.womens-text {
   font-family: Sheepman;
   font-weight: 900;
   font-size: 30px;
@@ -7,12 +7,12 @@
   margin-top: 20px;
 }
 
-.sliding_image {
+.womens_sliding_image {
   margin-top: 15px;
   border-top: 3px solid black;
 }
 
-.products {
+.womens-products {
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -57,7 +57,7 @@
   transform: scale(1.5);
 }
 
-.page {
+.womens-page {
   margin-top: 20px;
   border-top: 4px solid black;
   background-color: #e6e7e8;
@@ -73,7 +73,7 @@
   align-items: center;
 }
 
-.products {
+.womens-products {
   width: 80%;
   height: 100%;
   margin: 0 auto;
@@ -85,7 +85,7 @@
   margin-top: 30px;
 }
 
-.products-images {
+.womens-products-images {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,29 +96,29 @@
   border-radius: 10px;
 }
 
-.products-images img {
+.womens-products-images img {
   width: 100%;
   height: 50vh;
   object-fit: cover;
   transition: transform 0.8s ease-in-out;
 }
 
-.products-image2 {
+.womens-products-image2 {
   opacity: 0;
   position: absolute;
 }
 
-.products-images:hover .products-image2 {
+.womens-products-images:hover .products-image2 {
   transform: scale(1.2);
   opacity: 1;
 }
 
-.products-images:hover .products-image1 {
+.womens-products-images:hover .products-image1 {
   transform: scale(1.2);
   opacity: 0;
 }
 
-.products-options {
+.womens-products-options {
   position: absolute;
   top: 20%;
   right: 0;
@@ -134,14 +134,14 @@
   background: white;
 }
 
-.products-options img {
+.womens-products-options img {
   width: 60%;
   height: auto;
   margin: 12px 9px;
   cursor: pointer;
 }
 
-.products-images:hover .products-options {
+.womens-products-images:hover .products-options {
   transform: translateX(-20%) translateY(-50%);
   opacity: 1;
 }
@@ -164,13 +164,13 @@
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
-.products-images:hover .add-to-cart {
+.womens-products-images:hover .add-to-cart {
   transform: translateY(-6vh);
   opacity: 1;
   cursor: pointer;
 }
 
-.product-info {
+.womens-product-info {
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
@@ -181,13 +181,13 @@
   text-align: center;
 }
 
-.product-name {
+.womens-product-name {
   margin: 10px 0 5px 0;
   font-family: Sheepman;
   font-weight: bold;
   font-size: 20px;
 }
 
-.product-price{
+.womens-product-price {
   color: rgb(223, 89, 64);
 }

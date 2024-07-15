@@ -1,24 +1,23 @@
 import React, { useContext }from "react";
 import { Link } from "react-router-dom";
-import "./css/Mens.css";
 import Sliding_images from "../components/Sliding_images";
-import Men_Products_Data from "../Men_Products_Data.js";
+import Women_Products_Data from "../Women_Products_Data.js";
 import heart_icon from "../icons/heart.svg";
 import search_icon from "../icons/search.svg";
 import {
-  mens_sliding_image,
-  mens_category_image,
+    womens_sliding_image,
+    womens_category_image,
 } from "../components/import_images";
 
-function Mens() {
-  const mensfirstThreeImages = mens_category_image.slice(0, 3);
-  const mensnextFourImages = mens_category_image.slice(3);
+function Womens() {
+  const womensfirstThreeImages = womens_category_image.slice(0, 3);
+  const womensnextFourImages = womens_category_image.slice(3);
 
   return (
     <div>
-      <div className="page">MENS PRODUCTS</div>
+      <div className="page">WOMENS PRODUCTS</div>
       <div className="products">
-        {Men_Products_Data.map((product, index) => (
+        {Women_Products_Data.map((product, index) => (
           <div>
             <div className="products-images" key={index}>
               <img className="products-image1" src={product.imageLink1} alt={product.productName} />
@@ -37,19 +36,19 @@ function Mens() {
         ))}
       </div>
       <div className="sliding_image">
-        <Sliding_images images={mens_sliding_image} />
+        <Sliding_images images={womens_sliding_image} />
       </div>
       <div className="text">FEATURED PRODUCTS</div>
       <div className="products">
         <div className="three-column">
-          {mensfirstThreeImages.map((image, index) => (
+          {womensfirstThreeImages.map((image, index) => (
             <div className="image">
               <img key={index} src={image} alt="Category" />
             </div>
           ))}
         </div>
         <div className="four-column">
-          {mensnextFourImages.map((image, index) => (
+          {womensnextFourImages.map((image, index) => (
             <div className="image">
               <img key={index} src={image} alt="Category" />
             </div>
@@ -60,4 +59,4 @@ function Mens() {
   );
 }
 
-export default Mens;
+export default Womens;
