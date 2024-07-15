@@ -6,7 +6,7 @@ import {
   mens_sliding_image,
   mens_category_image,
 } from "../components/import_images";
-
+ 
 function Mens() {
   const mensfirstThreeImages = mens_category_image.slice(0, 3);
   const mensnextFourImages = mens_category_image.slice(3);
@@ -19,7 +19,8 @@ function Mens() {
           <div className="products-images" key={index}>
             <img className="products-image1" src={product.imageLink1} alt={product.productName} />
             <img className="products-image2" src={product.imageLink2} alt={product.productName} />
-            <div className="add-to-cart"></div>
+            <div className="products-options"></div>
+            <div className="add-to-cart">Add to Cart</div>
           </div>
         ))}
       </div>

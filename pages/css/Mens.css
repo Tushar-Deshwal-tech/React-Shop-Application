@@ -1,4 +1,4 @@
-.mens-text{
+.mens-text {
     font-family: Sheepman;
     font-weight: 900;
     font-size: 30px;
@@ -7,7 +7,7 @@
     margin-top: 20px;
 }
 
-.mens_sliding_image{
+.mens_sliding_image {
     border-top: 2.5px solid black;
 }
 
@@ -17,7 +17,8 @@
     margin: 0 auto;
 }
 
-.three-column, .four-column {
+.three-column,
+.four-column {
     display: grid;
     width: 100%;
     height: 100%;
@@ -50,11 +51,12 @@
     object-fit: cover;
     transition: transform 0.8s ease-in-out;
 }
+
 .image:hover img {
     transform: scale(1.5);
 }
 
-.mens-page{
+.mens-page {
     margin-top: 20px;
     border-top: 4px solid black;
     background-color: #E6E7E8;
@@ -81,7 +83,7 @@
     gap: 40px;
 }
 
-.products-images{
+.products-images {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,34 +102,57 @@
     transition: transform 0.8s ease-in-out;
 }
 
-.products-image2{
+.products-image2 {
     opacity: 0;
     position: absolute;
 }
 
-.products-images:hover .products-image2{
+.products-images:hover .products-image2 {
     transform: scale(1.2);
     opacity: 1;
 }
-.products-images:hover .products-image1{
+
+.products-images:hover .products-image1 {
     transform: scale(1.2);
     opacity: 0;
 }
-.add-to-cart {
+
+.products-options {
     position: absolute;
     top: 26%;
     right: 0%;
     transform: translateY(-50%);
-    background-color: red;
     width: 18%;
     height: 22vh;
     border-radius: 10px;
     opacity: 0;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
     background: white;
-  }
-  
-  .products-images:hover .add-to-cart {
+}
+
+.products-images:hover .products-options {
     transform: translateX(-20%) translateY(-50%);
     opacity: 1;
-  }
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: -8vh;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    font-family: Sheepman;
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    padding-top: 6px;
+    background-color: rgb(223, 89, 64);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.products-images:hover .add-to-cart {
+    transform: translateY(-6vh);
+    opacity: 1;
+}

@@ -6,6 +6,7 @@ import heart from '../icons/heart.svg';
 import cart from '../icons/cart.svg';
 import search from '../icons/search.svg';
 import signIn from '../icons/human.svg';
+import options from '../icons/options.svg';
 
 function Header() {
   return (
@@ -39,6 +40,7 @@ function Header() {
             </button>
           </div>
         </div>
+        <div className='Header-options'><img src={options} alt="Options" /></div>
       </div>
     </header>
   );
