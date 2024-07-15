@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useEffect} from "react";
+import { Link } from "react-router-dom";
 import "./css/Landing_page.css";
 import Sliding_images from "../components/Sliding_images";
 import Shop_button from "../components/Shop_button";
@@ -10,6 +11,10 @@ import {
 } from "../components/import_images";
 
 function Landing_page() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const mensfirstThreeImages = mens_category_image.slice(0, 3);
   const mensnextFourImages = mens_category_image.slice(3);
 
@@ -29,14 +34,14 @@ function Landing_page() {
         <div className="three-column">
           {mensfirstThreeImages.map((image, index) => (
             <div className="image">
-              <img key={index} src={image} alt="Category" />
+              <Link to="/Mens"><img key={index} src={image} alt="Category" /></Link>
             </div>
           ))}
         </div>
         <div className="four-column">
           {mensnextFourImages.map((image, index) => (
             <div className="image">
-              <img key={index} src={image} alt="Category" />
+              <Link to="/Mens"><img key={index} src={image} alt="Category" /></Link>
             </div>
           ))}
         </div>
@@ -52,14 +57,14 @@ function Landing_page() {
         <div className="three-column">
           {womensfirstThreeImages.map((image, index) => (
             <div className="image">
-              <img key={index} src={image} alt="Category" />
+              <Link to="/Womens"><img key={index} src={image} alt="Category" /></Link>
             </div>
           ))}
         </div>
         <div className="four-column">
           {womensnextFourImages.map((image, index) => (
             <div className="image">
-              <img key={index} src={image} alt="Category" />
+              <Link to="/Womens"><img key={index} src={image} alt="Category" /></Link>
             </div>
           ))}
         </div>

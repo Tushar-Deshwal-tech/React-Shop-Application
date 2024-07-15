@@ -1,4 +1,4 @@
-import React, { useContext }from "react";
+import React, { useEffect }from "react";
 import { Link } from "react-router-dom";
 import Sliding_images from "../components/Sliding_images";
 import Women_Products_Data from "../Women_Products_Data.js";
@@ -10,6 +10,10 @@ import {
 } from "../components/import_images";
 
 function Womens() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const womensfirstThreeImages = womens_category_image.slice(0, 3);
   const womensnextFourImages = womens_category_image.slice(3);
 

@@ -17,8 +17,8 @@ function Header() {
           <Link to="/"><img src={logo} alt="Logo" className="logo" /></Link>
         </div>
         <nav className="nav-menu">
-          <div className="nav-item">ABOUT US</div>
-          <div className="nav-item"><Link to="/Mens"> MEN</Link></div>
+          <div className="nav-item"><Link to="/">Home</Link></div>
+          <div className="nav-item"><Link to="/Mens">MEN</Link></div>
           <div className="nav-item"><Link to="/Womens">WOMEN</Link></div>
           <div className="nav-item">CONTACT US</div>
         </nav>

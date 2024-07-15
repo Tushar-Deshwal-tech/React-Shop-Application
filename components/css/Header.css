@@ -1,6 +1,6 @@
-/* Common Styles */
 .header {
     width: 100%;
+    height: auto;
 }
 
 .upper-line {
@@ -14,12 +14,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 15vh;
-    padding: 0 10px;
+    max-width: 1222px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .logo-container img {
-    height: 14vh;
+    height: 10vh;
     cursor: pointer;
 }
 
@@ -104,71 +105,4 @@
 
 .Header-options {
     display: none;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .header {
-        width: 100%;
-        height: auto;
-    }
-
-    .main {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: auto;
-        padding: 10px;
-    }
-
-    .logo-container img {
-        width: 100%;
-        height: 10vh;
-    }
-
-    .nav-menu {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 15px;
-        margin-top: 10px;
-    }
-
-    .icons-container {
-        justify-content: flex-start;
-        gap: 15px;
-        margin-top: 10px;
-        display: none;
-    }
-
-    .Header-options {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        width: 20px;
-        height: 20px;
-    }
-
-    .Header-options img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .sign-in-button {
-        padding: 5px 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .nav-item {
-        font-size: 10px;
-    }
-
-    .icon {
-        height: 20px;
-    }
-
-    .sign-in-button {
-        padding: 5px 8px;
-    }
 }
