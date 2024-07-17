@@ -1,4 +1,4 @@
-import React, { useEffect }from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./css/Mens.css";
 import Sliding_images from "../components/Sliding_images";
@@ -9,27 +9,56 @@ import {
   mens_sliding_image,
   mens_category_image,
 } from "../components/import_images";
+import { useProducts } from "../usecontext/Product_Context";
 
 function Mens() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const mensfirstThreeImages = mens_category_image.slice(0, 3);
-  const mensnextFourImages = mens_category_image.slice(3);
+  const { setProducts } = useProducts();
+
+  const storeProductsDetails = (id, name) => {
+    const newProduct = {
+      id: id,
+      name: name,
+    };
+    setProducts(newProduct);
+    // Log the values immediately
+    console.log("Storing Product - ID:", id, "Name:", name);
+  };
+  
+  const mensFirstThreeImages = mens_category_image.slice(0, 3);
+  const mensNextFourImages = mens_category_image.slice(3);
 
   return (
     <div>
       <div className="page">MENS PRODUCTS</div>
       <div className="products">
         {Men_Products_Data.map((product, index) => (
-          <div>
-            <div className="products-images" key={index}>
-              <img className="products-image1" src={product.imageLink1} alt={product.productName} />
-              <img className="products-image2" src={product.imageLink2} alt={product.productName} />
+          <div key={index} className="product-card">
+            <div className="products-images">
+              <img
+                className="products-image1"
+                src={product.imageLink1}
+                alt={product.productName}
+              />
+              <img
+                className="products-image2"
+                src={product.imageLink2}
+                alt={product.productName}
+              />
               <div className="products-options">
-                <Link to={`/Products`}><img src={search_icon} alt="View Details" /></Link>
-                <Link><img src={heart_icon} alt="Wishlist" /></Link>
+                <Link to={`/Products`} >
+                  <img
+                    onClick={() => storeProductsDetails(product.id, product.productName)}
+                    src={search_icon}
+                    alt="View Details"
+                  />
+                </Link>
+                <Link>
+                  <img src={heart_icon} alt="Wishlist" />
+                </Link>
               </div>
               <div className="add-to-cart">Add to Cart</div>
             </div>
@@ -46,16 +75,16 @@ function Mens() {
       <div className="text">FEATURED PRODUCTS</div>
       <div className="products">
         <div className="three-column">
-          {mensfirstThreeImages.map((image, index) => (
-            <div className="image">
-              <img key={index} src={image} alt="Category" />
+          {mensFirstThreeImages.map((image, index) => (
+            <div className="image" key={index}>
+              <img src={image} alt="Category" />
             </div>
           ))}
         </div>
         <div className="four-column">
-          {mensnextFourImages.map((image, index) => (
-            <div className="image">
-              <img key={index} src={image} alt="Category" />
+          {mensNextFourImages.map((image, index) => (
+            <div className="image" key={index}>
+              <img src={image} alt="Category" />
             </div>
           ))}
         </div>
