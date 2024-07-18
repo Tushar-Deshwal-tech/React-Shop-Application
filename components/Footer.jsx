@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/Footer.css";
 import logo from "../logo-150x122.png";
-import payment from "../icons/footer-payment-image.png"
+import payment from "../icons/footer-payment-image.png";
 
 function Footer() {
   return (
@@ -36,7 +36,7 @@ function Footer() {
                 </tr>
                 <tr>
                   <td>Men</td>
-                  <td>Women</td> 
+                  <td>Women</td>
                   <td>About Us</td>
                 </tr>
                 <tr>
@@ -48,12 +48,21 @@ function Footer() {
             </table>
             <div className="payment-section">
               <div>100% Secure Payment:</div>
-              <div><img src={payment} alt="Secure Payment" className="payment-img" /></div>
+              <div>
+                <img
+                  src={payment}
+                  alt="Secure Payment"
+                  className="payment-img"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="footer-lower-line">©2024. Solo Site. All Rights Reserved. <span className="footer-lower-V-line"></span></div>
+      <div className="footer-lower-line">
+        ©2024. Solo Site. All Rights Reserved.{" "}
+        <span className="footer-lower-V-line"></span>
+      </div>
     </div>
   );
 }

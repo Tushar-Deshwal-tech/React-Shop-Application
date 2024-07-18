@@ -12,7 +12,7 @@
 }
 
 .category-section {
-    width: 70%;
+    width: 70%; 
     height: 100%;
     margin: 0 auto;
 }
@@ -35,4 +35,8 @@
 
 .women-section{
     margin-top: 40px;
+}
+
+.three-column-image, .four-column-image img{
+    border-radius: 10px;
 }

@@ -1,7 +1,7 @@
 import React, { useEffect }from "react";
 import { Link } from "react-router-dom";
 import Sliding_images from "../components/Sliding_images";
-import Women_Products_Data from "../Women_Products_Data.js";
+import Women_Products_Data from "../Women_Products_Data.jsx";
 import heart_icon from "../icons/heart.svg";
 import search_icon from "../icons/search.svg";
 import {

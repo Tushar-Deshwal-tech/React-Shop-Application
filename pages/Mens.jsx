@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./css/Mens.css";
 import Sliding_images from "../components/Sliding_images";
-import Men_Products_Data from "../Men_Products_Data.js";
+import Men_Products_Data from "../Men_Products_Data.jsx";
 import heart_icon from "../icons/heart.svg";
 import search_icon from "../icons/search.svg";
 import {
@@ -24,8 +24,6 @@ function Mens() {
       name: name,
     };
     setProducts(newProduct);
-    // Log the values immediately
-    console.log("Storing Product - ID:", id, "Name:", name);
   };
   
   const mensFirstThreeImages = mens_category_image.slice(0, 3);
