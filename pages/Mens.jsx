@@ -32,7 +32,7 @@ function Mens() {
   return (
     <div>
       <div className="page">MENS PRODUCTS</div>
-      <div className="products">
+      <div className="products-first">
         {Men_Products_Data.map((product, index) => (
           <div key={index} className="product-card">
             <div className="products-images">
@@ -71,7 +71,7 @@ function Mens() {
         <Sliding_images images={mens_sliding_image} />
       </div>
       <div className="text">FEATURED PRODUCTS</div>
-      <div className="products">
+      <div>
         <div className="three-column">
           {mensFirstThreeImages.map((image, index) => (
             <div className="image" key={index}>
