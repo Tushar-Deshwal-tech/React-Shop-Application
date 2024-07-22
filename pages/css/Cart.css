@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 10px auto;
     font-family: Sheepman;
     gap: 50px;
 }
@@ -19,10 +19,10 @@
     width: 70%;
     height: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    background-color: #b8b9b9;
+    
     text-align: center;
     font-style: italic;
 }
@@ -32,9 +32,8 @@
     align-items: center;
 }
 .cart-products-img{
-    width: 30%;
-    height: 20vh;
-    background-color: red;
+    width: 25%;
+    height: 18vh;
     overflow: hidden;
     margin-left: 10px;
 }
@@ -46,8 +45,8 @@
 .cart-products-details{
     display: flex;
     align-items: center;
-    justify-content: end;
-    background-color: red;
+    justify-content: space-around;
+    width: 100vh;
 }
 .cart-products-section h3{
     font-size: 20px;
@@ -69,11 +68,69 @@
     margin-left: 30px;
 }
 
+.cart-quanty-section button{
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
 
-
+.cart-quanty-section button:hover{
+    background-color: black;
+    color: white;
+}
 
 .cart-payment-section{
     width: 30%;
     height: 30vh;
-    background-color: red;
+    background-color: #b8b9b9;
+}
+.cart-payment-section h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0;
+    font-weight: 900;
+}
+.cart-payment-section-price{
+    font-size: 20px;
+    font-weight: 700;
+}
+.cart-payment-section-price span{
+    color: rgb(223, 89, 64);
+}
+.cart-payment-section-payment-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+}
+.cart-payment-section-payment-options input, .cart-payment-section-payment-options label{
+    cursor: pointer;
+}
+.cart-payment-section-checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.cart-payment-section-checkout button{
+    background-color: #FCAB35;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+
+}
+.cart-payment-section-checkout button:hover{
+    background-color: rgb(223, 89, 64);
+}
+.cart-payment-section-checkout button:focus{
+    background-color: rgb(223, 89, 64);
 }
