@@ -20,7 +20,7 @@ function Womens() {
   return (
     <div>
       <div className="page">WOMENS PRODUCTS</div>
-      <div className="products">
+      <div className="products-first">
         {Women_Products_Data.map((product, index) => (
           <div>
             <div className="products-images" key={index}>
@@ -43,7 +43,7 @@ function Womens() {
         <Sliding_images images={womens_sliding_image} />
       </div>
       <div className="text">FEATURED PRODUCTS</div>
-      <div className="products">
+      <div>
         <div className="three-column">
           {womensfirstThreeImages.map((image, index) => (
             <div className="image">
