@@ -1,13 +1,13 @@
 import React, { useEffect }from "react";
 import { Link } from "react-router-dom";
-import Sliding_images from "../components/Sliding_images";
-import Women_Products_Data from "../Women_Products_Data.jsx";
+import SlidingImages from "../components/SlidingImages";
+import Women_Products_Data from "../Data/Women_Products_Data.jsx";
 import heart_icon from "../icons/heart.svg";
 import search_icon from "../icons/search.svg";
 import {
     womens_sliding_image,
     womens_category_image,
-} from "../components/import_images";
+} from "../components/ImportImages";
 
 function Womens() {
   useEffect(() => {
@@ -40,7 +40,7 @@ function Womens() {
         ))}
       </div>
       <div className="sliding_image">
-        <Sliding_images images={womens_sliding_image} />
+        <SlidingImages images={womens_sliding_image} />
       </div>
       <div className="text">FEATURED PRODUCTS</div>
       <div>

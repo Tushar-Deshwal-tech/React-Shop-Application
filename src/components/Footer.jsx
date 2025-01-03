@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Footer.css";
-import logo from "../logo-150x122.png";
+// import logo from "../logo-150x122.png";
 import payment from "../icons/footer-payment-image.png";
 
 function Footer() {
@@ -9,9 +9,9 @@ function Footer() {
       <div className="footer-upper-line">HOMEGROWN INDIAN BRAND</div>
       <div className="footer-content">
         <div className="first-content">
-          <div>
+          {/* <div>
             <img src={logo} alt="Logo" />
-          </div>
+          </div> */}
           <div className="footer-text">
             Behind the word mountains, far from the countries Vokalia and
             Consonantia, there live the blind texts they live

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./css/Products.css";
-import Men_Products_Data from "../Men_Products_Data";
-import Women_Products_Data from "../Women_Products_Data";
+import Men_Products_Data from "../Data/Men_Products_Data";
+// import Women_Products_Data from "../Data/Women_Products_Data";
 import { useProducts } from "../usecontext/Product_Context";
 
 function Products() {

@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./css/Mens.css";
-import Sliding_images from "../components/Sliding_images";
-import Men_Products_Data from "../Men_Products_Data.jsx";
+import SlidingImages from "../components/SlidingImages";
+import Men_Products_Data from "../Data/Men_Products_Data.jsx";
 import heart_icon from "../icons/heart.svg";
 import search_icon from "../icons/search.svg";
 import {
   mens_sliding_image,
   mens_category_image,
-} from "../components/import_images";
+} from "../components/ImportImages";
 import { useProducts } from "../usecontext/Product_Context";
 
 function Mens() {
@@ -68,7 +68,7 @@ function Mens() {
         ))}
       </div>
       <div className="sliding_image">
-        <Sliding_images images={mens_sliding_image} />
+        <SlidingImages images={mens_sliding_image} />
       </div>
       <div className="text">FEATURED PRODUCTS</div>
       <div>

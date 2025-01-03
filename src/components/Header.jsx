@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './css/Header.css'
-import logo from '../logo-150x122.png'; 
+// import logo from '../logo-150x122.png'; 
 import heart from '../icons/heart.svg';
 import cart from '../icons/cart.svg';
 import search from '../icons/search.svg';
@@ -13,9 +13,9 @@ function Header() {
     <header className="header">
       <div className="upper-line"></div>
       <div className='main'>
-        <div className="logo-container">
+        {/* <div className="logo-container">
           <Link to="/"><img src={logo} alt="Logo" className="logo" /></Link>
-        </div>
+        </div> */}
         <nav className="nav-menu">
           <div className="nav-item"><Link to="/">Home</Link></div>
           <div className="nav-item"><Link to="/Mens">MEN</Link></div>

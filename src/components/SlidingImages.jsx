@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import './css/Sliding_images.css';
+import './css/SlidingImages.css';
 import left from "../icons/left arrow.svg";
 import right from "../icons/right arrow.svg";
 
-function Sliding_images({ images }) {
+function SlidingImages({ images }) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handleNext = () => {
@@ -55,4 +55,4 @@ function Sliding_images({ images }) {
   );
 }
 
-export default Sliding_images;
+export default SlidingImages;

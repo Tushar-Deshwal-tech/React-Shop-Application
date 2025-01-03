@@ -1,8 +1,8 @@
 import React from 'react'
-import './css/Shop_button.css'
+import './css/ShopButton.css'
 import { Link } from "react-router-dom";
 
-function Shop_button({category, link}) {
+function ShopButton({category, link}) {
   return (
     <div className='shop-button'>
         <Link to={link}><button>SHOP FOR {category}</button></Link>
@@ -10,4 +10,4 @@ function Shop_button({category, link}) {
   )
 }
 
-export default Shop_button
+export default ShopButton

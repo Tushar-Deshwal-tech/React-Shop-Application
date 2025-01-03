@@ -1,14 +1,14 @@
 import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
 import "./css/Landing_page.css";
-import Sliding_images from "../components/Sliding_images";
-import Shop_button from "../components/Shop_button";
+import SlidingImages from "../components/SlidingImages";
+import ShopButton from "../components/ShopButton";
 import {
   mens_sliding_image,
   mens_category_image,
   womens_sliding_image,
   womens_category_image,
-} from "../components/import_images";
+} from "../components/ImportImages";
 
 function Landing_page() {
   useEffect(() => {
@@ -24,10 +24,10 @@ function Landing_page() {
   return (
     <div className="landing-main">
       <div>
-        <Sliding_images images={mens_sliding_image} />
+        <SlidingImages images={mens_sliding_image} />
       </div>
       <div>
-        <Shop_button category={"MEN"} link="/Mens" />
+        <ShopButton category={"MEN"} link="/Mens" />
       </div>
       <div className="category-text">CATEGORIES</div>
       <div className="category-section">
@@ -47,10 +47,10 @@ function Landing_page() {
         </div>
       </div>
       <div className="women-section">
-        <Sliding_images images={womens_sliding_image} />
+        <SlidingImages images={womens_sliding_image} />
       </div>
       <div>
-        <Shop_button category={"WOMEN"} />
+        <ShopButton category={"WOMEN"} />
       </div>
       <div className="category-text">CATEGORIES</div>
       <div className="category-section">
