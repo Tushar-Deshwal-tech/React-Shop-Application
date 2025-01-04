@@ -1,67 +1,76 @@
-.product-page-upper-line{
+.product-page-upper-line {
     width: 100%;
-    height: 10vh;
+    height: 6vh;
     margin-top: 10px;
     border-top: 4px solid black;
     background-color: #e6e7e8;
 }
-.product-page-maincontent{
+
+.product-page-maincontent {
     width: 80%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     font-family: Sheepman;
+    gap: 15px;
+    margin-top: 10px;
+    position: relative;
 }
-.product-page-image{
+
+.product-page-image {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    gap: 10px;
+}
+
+.product-page-image img {
     width: 100%;
     height: 100%;
-    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
 }
-.product-page-image img{
-    width: 40%;
-    height: 100%;
-    gap: 20px;
-    margin: 0 20px;
-}
-.product-page-details{
+
+.product-page-details {
     width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    height: 40vh;
+    border-top: solid #909396ad;
+    border-bottom: solid #909396ad;
+    border-width: 1.5vh;
 }
-.product-page-header{
+
+.product-page-productname {
     width: 100%;
-    height: 5vh;
-    background-color: #909396ad;
-}
-.product-page-productname{
-    width: 100%;
-    height: 100%;
     font-style: bold;
     font-size: 30px;
     font-weight: 900;
-    text-align: start;
-    margin-top: 10px;
+    margin-top: 5px;
 }
-.product-page-price_rating{
+
+.product-page-price_rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px 20px;
+    margin: 20px 10px;
+    font-size: large;
 }
-.product-page-price_rating span{
+
+.product-page-price_rating span {
     color: rgb(223, 89, 64);
 }
-.product-page-sizes{
+
+.product-page-sizes {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    font-size: 15px;
-    margin: 30px 10px;
+    font-size: large;
+    margin: 20px 0;
 
 }
-.product-page-sizes div{
+
+.product-page-sizes div {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -72,28 +81,29 @@
     text-align: center;
     align-items: center;
     display: flex;
+    font-size: medium;
 }
 
-.product-page-description-heading{
-    font-family: Sheepman;
-    font-size: 20px;
-    font-weight: 900;
-    font-style: italic;
-}
-.product-page-description-text{
+.product-page-description {
     width: 100%;
     height: 10vh;
     background-color: #e9eceead;
+    font-size: large;
+    font-weight: 900;
 }
-.product-page-buttons{
+.product-page-description span {
+    font-size: medium;
+    font-weight: 100;
+}
+
+.product-page-buttons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100%;
     margin-top: 10px;
 }
-.product-page-buttons button{
+
+.product-page-buttons button {
     background-color: #FCAB35;
     color: white;
     border: none;
@@ -106,11 +116,12 @@
     font-weight: 400;
     font-size: 15px;
 }
-.product-page-buttons button:hover{
+
+.product-page-buttons button:hover {
     background-color: rgb(223, 89, 64);
 }
 
 .Size.selected {
     border: 1px solid red;
     font-weight: bold;
-  }
+}

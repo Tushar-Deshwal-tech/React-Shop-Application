@@ -1,34 +1,34 @@
-import mens_sliding_image1 from "../CategoryImages/mens-homepage-sliding-image1.webp";
-import mens_sliding_image2 from "../CategoryImages/mens-homepage-sliding-image2.webp";
-import mens_sliding_image3 from "../CategoryImages/mens-homepage-sliding-image3.webp";
-import mens_sliding_image4 from "../CategoryImages/mens-homepage-sliding-image4.webp";
+import mens_sliding_image1 from "./CategoryImages/mens-homepage-sliding-image1.webp";
+import mens_sliding_image2 from "./CategoryImages/mens-homepage-sliding-image2.webp";
+import mens_sliding_image3 from "./CategoryImages/mens-homepage-sliding-image3.webp";
+import mens_sliding_image4 from "./CategoryImages/mens-homepage-sliding-image4.webp";
 
-import mens_category_image1 from "../CategoryImages/mens-hoodies.webp";
-import mens_category_image2 from "../CategoryImages/mens-jackets.webp";
-import mens_category_image3 from "../CategoryImages/mens-joggers.webp";
-import mens_category_image4 from "../CategoryImages/mens-oversized-full-sleeve-t-shirts.webp";
-import mens_category_image5 from "../CategoryImages/mens-pants.webp";
-import mens_category_image6 from "../CategoryImages/mens-polos.webp";
-import mens_category_image7 from "../CategoryImages/mens-shorts.webp";
-import mens_category_image8 from "../CategoryImages/mens-sneakers.png";
-import mens_category_image9 from "../CategoryImages/mens-supima-t-shirts.webp";
-import mens_category_image10 from "../CategoryImages/mens-sweatshirts.webp";
+import mens_category_image1 from "./CategoryImages/mens-hoodies.webp";
+import mens_category_image2 from "./CategoryImages/mens-jackets.webp";
+import mens_category_image3 from "./CategoryImages/mens-joggers.webp";
+import mens_category_image4 from "./CategoryImages/mens-oversized-full-sleeve-t-shirts.webp";
+import mens_category_image5 from "./CategoryImages/mens-pants.webp";
+import mens_category_image6 from "./CategoryImages/mens-polos.webp";
+import mens_category_image7 from "./CategoryImages/mens-shorts.webp";
+import mens_category_image8 from "./CategoryImages/mens-sneakers.png";
+import mens_category_image9 from "./CategoryImages/mens-supima-t-shirts.webp";
+import mens_category_image10 from "./CategoryImages/mens-sweatshirts.webp";
 
-import womens_sliding_image1 from "../CategoryImages/womens-homepage-sliding-image1.webp";
-import womens_sliding_image2 from "../CategoryImages/womens-homepage-sliding-image2.webp";
-import womens_sliding_image3 from "../CategoryImages/womens-homepage-sliding-image3.webp";
-import womens_sliding_image4 from "../CategoryImages/womens-homepage-sliding-image4.webp";
+import womens_sliding_image1 from "./CategoryImages/womens-homepage-sliding-image1.webp";
+import womens_sliding_image2 from "./CategoryImages/womens-homepage-sliding-image2.webp";
+import womens_sliding_image3 from "./CategoryImages/womens-homepage-sliding-image3.webp";
+import womens_sliding_image4 from "./CategoryImages/womens-homepage-sliding-image4.webp";
 
-import womens_category_image1 from "../CategoryImages/womens-comfy-joggers.webp";
-import womens_category_image2 from "../CategoryImages/womens-co-ord-sets.webp";
-import womens_category_image3 from "../CategoryImages/womens-dresses.webp";
-import womens_category_image4 from "../CategoryImages/womens-jeans.webp";
-import womens_category_image5 from "../CategoryImages/womens-light-layers.webp";
-import womens_category_image6 from "../CategoryImages/womens-oversized-t-shirts.webp";
-import womens_category_image7 from "../CategoryImages/womens-shirts.webp";
-import womens_category_image8 from "../CategoryImages/womens-sneakers.webp";
-import womens_category_image9 from "../CategoryImages/womens-suit-with-dupatta.jpg";
-import womens_category_image10 from "../CategoryImages/womens-tops.webp";
+import womens_category_image1 from "./CategoryImages/womens-comfy-joggers.webp";
+import womens_category_image2 from "./CategoryImages/womens-co-ord-sets.webp";
+import womens_category_image3 from "./CategoryImages/womens-dresses.webp";
+import womens_category_image4 from "./CategoryImages/womens-jeans.webp";
+import womens_category_image5 from "./CategoryImages/womens-light-layers.webp";
+import womens_category_image6 from "./CategoryImages/womens-oversized-t-shirts.webp";
+import womens_category_image7 from "./CategoryImages/womens-shirts.webp";
+import womens_category_image8 from "./CategoryImages/womens-sneakers.webp";
+import womens_category_image9 from "./CategoryImages/womens-suit-with-dupatta.jpg";
+import womens_category_image10 from "./CategoryImages/womens-tops.webp";
 
 export const mens_sliding = [
   mens_sliding_image1,
@@ -96,7 +96,7 @@ export const mens_category = [
   },
 ];
 
-export const women_category = [
+export const womens_category = [
   {
     id: 1,
     category: "comfy joggers",
