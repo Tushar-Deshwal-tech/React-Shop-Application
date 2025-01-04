@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/Cart.css'
-import Men_Products_Data from "../Data/Men_Products_Data";
+import Men_Products_Data from "../Data/MenProductsData";
 
 function Cart() {
     const [firstProduct] = Men_Products_Data;

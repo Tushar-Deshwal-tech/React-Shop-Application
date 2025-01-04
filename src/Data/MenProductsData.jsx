@@ -1,65 +1,65 @@
-import Mens_Classic_TShirt1 from './mens_products_images/Mens_Classic_T-Shirt1.jpg';
-import Mens_Classic_TShirt2 from './mens_products_images/Mens_Classic_T-Shirt2.jpg';
+import Mens_Classic_TShirt1 from './MensProductsImages/Mens_Classic_T-Shirt1.jpg';
+import Mens_Classic_TShirt2 from './MensProductsImages/Mens_Classic_T-Shirt2.jpg';
 
-import Mens_Slim_Fit_Jeans1 from './mens_products_images/Mens_Slim_Fit_Jeans1.jpg';
-import Mens_Slim_Fit_Jeans2 from './mens_products_images/Mens_Slim_Fit_Jeans2.jpg';
+import Mens_Slim_Fit_Jeans1 from './MensProductsImages/Mens_Slim_Fit_Jeans1.jpg';
+import Mens_Slim_Fit_Jeans2 from './MensProductsImages/Mens_Slim_Fit_Jeans2.jpg';
 
-import Mens_Leather_Jacket1 from './mens_products_images/Mens_Leather_Jacket1.jpg';
-import Mens_Leather_Jacket2 from './mens_products_images/Mens_Leather_Jacket2.jpg';
+import Mens_Leather_Jacket1 from './MensProductsImages/Mens_Leather_Jacket1.jpg';
+import Mens_Leather_Jacket2 from './MensProductsImages/Mens_Leather_Jacket2.jpg';
 
-import Mens_Hoodie1 from './mens_products_images/Mens_Hoodie1.jpg';
-import Mens_Hoodie2 from './mens_products_images/Mens_Hoodie2.jpg';
+import Mens_Hoodie1 from './MensProductsImages/Mens_Hoodie1.jpg';
+import Mens_Hoodie2 from './MensProductsImages/Mens_Hoodie2.jpg';
 
-import Mens_Chinos1 from './mens_products_images/Mens_Chinos1.jpg';
-import Mens_Chinos2 from './mens_products_images/Mens_Chinos2.jpg';
+import Mens_Chinos1 from './MensProductsImages/Mens_Chinos1.jpg';
+import Mens_Chinos2 from './MensProductsImages/Mens_Chinos2.jpg';
 
-import Mens_Polo_Shirt1 from './mens_products_images/Mens_Polo_Shirt1.jpg';
-import Mens_Polo_Shirt2 from './mens_products_images/Mens_Polo_Shirt2.jpg';
+import Mens_Polo_Shirt1 from './MensProductsImages/Mens_Polo_Shirt1.jpg';
+import Mens_Polo_Shirt2 from './MensProductsImages/Mens_Polo_Shirt2.jpg';
 
-import Mens_Winter_Coat1 from './mens_products_images/Mens_Winter_Coat1.jpg';
-import Mens_Winter_Coat2 from './mens_products_images/Mens_Winter_Coat2.jpg';
+import Mens_Winter_Coat1 from './MensProductsImages/Mens_Winter_Coat1.jpg';
+import Mens_Winter_Coat2 from './MensProductsImages/Mens_Winter_Coat2.jpg';
 
-import Mens_Swim_Trunks1 from './mens_products_images/Mens_Swim_Trunks1.jpg';
-import Mens_Swim_Trunks2 from './mens_products_images/Mens_Swim_Trunks2.jpg';
+import Mens_Swim_Trunks1 from './MensProductsImages/Mens_Swim_Trunks1.jpg';
+import Mens_Swim_Trunks2 from './MensProductsImages/Mens_Swim_Trunks2.jpg';
 
-import Mens_Cargo_Pants1 from './mens_products_images/Mens_Cargo_Pants1.jpg';
-import Mens_Cargo_Pants2 from './mens_products_images/Mens_Cargo_Pants2.jpg';
+import Mens_Cargo_Pants1 from './MensProductsImages/Mens_Cargo_Pants1.jpg';
+import Mens_Cargo_Pants2 from './MensProductsImages/Mens_Cargo_Pants2.jpg';
 
-import Mens_Dress_Shirt1 from './mens_products_images/Mens_Dress_Shirt1.jpg';
-import Mens_Dress_Shirt2 from './mens_products_images/Mens_Dress_Shirt2.jpg';
+import Mens_Dress_Shirt1 from './MensProductsImages/Mens_Dress_Shirt1.jpg';
+import Mens_Dress_Shirt2 from './MensProductsImages/Mens_Dress_Shirt2.jpg';
 
-import Mens_Sweatpants1 from './mens_products_images/Mens_Sweatpants1.jpg';
-import Mens_Sweatpants2 from './mens_products_images/Mens_Sweatpants2.jpg';
+import Mens_Sweatpants1 from './MensProductsImages/Mens_Sweatpants1.jpg';
+import Mens_Sweatpants2 from './MensProductsImages/Mens_Sweatpants2.jpg';
 
-import Mens_Blazer1 from './mens_products_images/Mens_Blazer1.jpg';
-import Mens_Blazer2 from './mens_products_images/Mens_Blazer2.jpg';
+import Mens_Blazer1 from './MensProductsImages/Mens_Blazer1.jpg';
+import Mens_Blazer2 from './MensProductsImages/Mens_Blazer2.jpg';
 
-import Mens_V_Neck_Sweater1 from './mens_products_images/Mens_V_Neck_Sweater1.webp';
-import Mens_V_Neck_Sweater2 from './mens_products_images/Mens_V_Neck_Sweater2.webp';
+import Mens_V_Neck_Sweater1 from './MensProductsImages/Mens_V_Neck_Sweater1.webp';
+import Mens_V_Neck_Sweater2 from './MensProductsImages/Mens_V_Neck_Sweater2.webp';
 
-import Mens_Shorts1 from './mens_products_images/Mens_Shorts1.jpg';
-import Mens_Shorts2 from './mens_products_images/Mens_Shorts2.jpg';
+import Mens_Shorts1 from './MensProductsImages/Mens_Shorts1.jpg';
+import Mens_Shorts2 from './MensProductsImages/Mens_Shorts2.jpg';
 
-import Mens_Trench_Coat1 from './mens_products_images/Mens_Trench_Coat1.jpg';
-import Mens_Trench_Coat2 from './mens_products_images/Mens_Trench_Coat2.jpg';
+import Mens_Trench_Coat1 from './MensProductsImages/Mens_Trench_Coat1.jpg';
+import Mens_Trench_Coat2 from './MensProductsImages/Mens_Trench_Coat2.jpg';
 
-import Mens_Tank_Top1 from './mens_products_images/Mens_Tank_Top1.jpg';
-import Mens_Tank_Top2 from './mens_products_images/Mens_Tank_Top2.jpg';
+import Mens_Tank_Top1 from './MensProductsImages/Mens_Tank_Top1.jpg';
+import Mens_Tank_Top2 from './MensProductsImages/Mens_Tank_Top2.jpg';
 
-import Mens_Wool_Sweater1 from './mens_products_images/Mens_Wool_Sweater1.jpg';
-import Mens_Wool_Sweater2 from './mens_products_images/Mens_Wool_Sweater2.jpg';
+import Mens_Wool_Sweater1 from './MensProductsImages/Mens_Wool_Sweater1.jpg';
+import Mens_Wool_Sweater2 from './MensProductsImages/Mens_Wool_Sweater2.jpg';
 
-import Mens_Athletic_Shorts1 from './mens_products_images/Mens_Athletic_Shorts1.jpg';
-import Mens_Athletic_Shorts2 from './mens_products_images/Mens_Athletic_Shorts2.jpg';
+import Mens_Athletic_Shorts1 from './MensProductsImages/Mens_Athletic_Shorts1.jpg';
+import Mens_Athletic_Shorts2 from './MensProductsImages/Mens_Athletic_Shorts2.jpg';
 
-import Mens_Cardigan1 from './mens_products_images/Mens_Cardigan1.jpg';
-import Mens_Cardigan2 from './mens_products_images/Mens_Cardigan2.jpg';
+import Mens_Cardigan1 from './MensProductsImages/Mens_Cardigan1.jpg';
+import Mens_Cardigan2 from './MensProductsImages/Mens_Cardigan2.jpg';
 
-import Mens_Casual_Shirt1 from './mens_products_images/Mens_Casual_Shirt1.jpg';
-import Mens_Casual_Shirt2 from './mens_products_images/Mens_Casual_Shirt2.jpg';
+import Mens_Casual_Shirt1 from './MensProductsImages/Mens_Casual_Shirt1.jpg';
+import Mens_Casual_Shirt2 from './MensProductsImages/Mens_Casual_Shirt2.jpg';
 
-import Mens_Sports_Jacket1 from './mens_products_images/Mens_Sports_Jacket1.jpg';
-import Mens_Sports_Jacket2 from './mens_products_images/Mens_Sports_Jacket2.jpg';
+import Mens_Sports_Jacket1 from './MensProductsImages/Mens_Sports_Jacket1.jpg';
+import Mens_Sports_Jacket2 from './MensProductsImages/Mens_Sports_Jacket2.jpg'; 
 
 const Men_Products_Data = [
   {

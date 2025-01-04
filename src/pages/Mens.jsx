@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./css/Mens.css";
 import SlidingImages from "../components/SlidingImages";
-import Men_Products_Data from "../Data/Men_Products_Data.jsx";
+import Men_Products_Data from "../Data/MenProductsData.jsx";
 import heart_icon from "../icons/heart.svg";
 import search_icon from "../icons/search.svg";
 import {

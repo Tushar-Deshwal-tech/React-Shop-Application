@@ -1,64 +1,64 @@
-import Womens_Summer_Dress1 from './womens_products_images/Womens_Summer_Dress1.jpg';
-import Womens_Summer_Dress2 from './womens_products_images/Womens_Summer_Dress2.jpg';
+import Womens_Summer_Dress1 from './WomensProductsImages/Womens_Summer_Dress1.jpg';
+import Womens_Summer_Dress2 from './WomensProductsImages/Womens_Summer_Dress2.jpg';
 
-import Womens_Plaid_Skirt1 from './womens_products_images/Womens_Plaid_Skirt1.jpg';
-import Womens_Plaid_Skirt2 from './womens_products_images/Womens_Plaid_Skirt2.jpg';
+import Womens_Plaid_Skirt1 from './WomensProductsImages/Womens_Plaid_Skirt1.jpg';
+import Womens_Plaid_Skirt2 from './WomensProductsImages/Womens_Plaid_Skirt2.jpg';
 
-import Womens_Raincoat1 from './womens_products_images/Womens_Raincoat1.jpg';
-import Womens_Raincoat2 from './womens_products_images/Womens_Raincoat2.jpg';
+import Womens_Raincoat1 from './WomensProductsImages/Womens_Raincoat1.jpg';
+import Womens_Raincoat2 from './WomensProductsImages/Womens_Raincoat2.jpg';
 
-import Womens_Activewear_Set1 from './womens_products_images/Womens_Activewear_Set1.jpg';
-import Womens_Activewear_Set2 from './womens_products_images/Womens_Activewear_Set2.jpg';
+import Womens_Activewear_Set1 from './WomensProductsImages/Womens_Activewear_Set1.jpg';
+import Womens_Activewear_Set2 from './WomensProductsImages/Womens_Activewear_Set2.jpg';
 
-import Womens_Sweater1 from './womens_products_images/Womens_Sweater1.jpg';
-import Womens_Sweater2 from './womens_products_images/Womens_Sweater2.jpg';
+import Womens_Sweater1 from './WomensProductsImages/Womens_Sweater1.jpg';
+import Womens_Sweater2 from './WomensProductsImages/Womens_Sweater2.jpg';
 
-import Womens_Puffer_Jacket1 from './womens_products_images/Womens_Puffer_Jacket1.jpg';
-import Womens_Puffer_Jacket2 from './womens_products_images/Womens_Puffer_Jacket2.jpg';
+import Womens_Puffer_Jacket1 from './WomensProductsImages/Womens_Puffer_Jacket1.jpg';
+import Womens_Puffer_Jacket2 from './WomensProductsImages/Womens_Puffer_Jacket2.jpg';
 
-import Womens_Ballet_Leotard1 from './womens_products_images/Womens_Ballet_Leotard1.jpg';
-import Womens_Ballet_Leotard2 from './womens_products_images/Womens_Ballet_Leotard2.jpg';
+import Womens_Ballet_Leotard1 from './WomensProductsImages/Womens_Ballet_Leotard1.jpg';
+import Womens_Ballet_Leotard2 from './WomensProductsImages/Womens_Ballet_Leotard2.jpg';
 
-import Womens_Swimwear1 from './womens_products_images/Womens_Swimwear1.jpg';
-import Womens_Swimwear2 from './womens_products_images/Womens_Swimwear2.jpg';
+import Womens_Swimwear1 from './WomensProductsImages/Womens_Swimwear1.jpg';
+import Womens_Swimwear2 from './WomensProductsImages/Womens_Swimwear2.jpg';
 
-import Womens_Office_Dress1 from './womens_products_images/Womens_Office_Dress1.jpg';
-import Womens_Office_Dress2 from './womens_products_images/Womens_Office_Dress2.jpg';
+import Womens_Office_Dress1 from './WomensProductsImages/Womens_Office_Dress1.jpg';
+import Womens_Office_Dress2 from './WomensProductsImages/Womens_Office_Dress2.jpg';
 
-import Womens_Tee_and_Shorts_Set1 from './womens_products_images/Womens_Tee_and_Shorts_Set1.jpg';
-import Womens_Tee_and_Shorts_Set2 from './womens_products_images/Womens_Tee_and_Shorts_Set2.jpg';
+import Womens_Tee_and_Shorts_Set1 from './WomensProductsImages/Womens_Tee_and_Shorts_Set1.jpg';
+import Womens_Tee_and_Shorts_Set2 from './WomensProductsImages/Womens_Tee_and_Shorts_Set2.jpg';
 
-import Womens_Wool_Coat1 from './womens_products_images/Womens_Wool_Coat1.jpg';
-import Womens_Wool_Coat2 from './womens_products_images/Womens_Wool_Coat2.jpg';
+import Womens_Wool_Coat1 from './WomensProductsImages/Womens_Wool_Coat1.jpg';
+import Womens_Wool_Coat2 from './WomensProductsImages/Womens_Wool_Coat2.jpg';
 
-import Womens_Party_Dress1 from './womens_products_images/Womens_Party_Dress1.jpg';
-import Womens_Party_Dress2 from './womens_products_images/Womens_Party_Dress2.jpg';
+import Womens_Party_Dress1 from './WomensProductsImages/Womens_Party_Dress1.jpg';
+import Womens_Party_Dress2 from './WomensProductsImages/Womens_Party_Dress2.jpg';
 
-import Womens_Leggings1 from './womens_products_images/Womens_Leggings1.jpg';
-import Womens_Leggings2 from './womens_products_images/Womens_Leggings2.jpg';
+import Womens_Leggings1 from './WomensProductsImages/Womens_Leggings1.jpg';
+import Womens_Leggings2 from './WomensProductsImages/Womens_Leggings2.jpg';
 
-import Womens_Pajamas1 from './womens_products_images/Womens_Pajamas1.jpg';
-import Womens_Pajamas2 from './womens_products_images/Womens_Pajamas2.jpg';
+import Womens_Pajamas1 from './WomensProductsImages/Womens_Pajamas1.jpg';
+import Womens_Pajamas2 from './WomensProductsImages/Womens_Pajamas2.jpg';
 
-import Womens_Denim_Jacket1 from './womens_products_images/Womens_Denim_Jacket1.jpg';
-import Womens_Denim_Jacket2 from './womens_products_images/Womens_Denim_Jacket2.jpg';
+import Womens_Denim_Jacket1 from './WomensProductsImages/Womens_Denim_Jacket1.jpg';
+import Womens_Denim_Jacket2 from './WomensProductsImages/Womens_Denim_Jacket2.jpg';
 
-import Womens_Jumpsuit1 from './womens_products_images/Womens_Jumpsuit1.jpg';
-import Womens_Jumpsuit2 from './womens_products_images/Womens_Jumpsuit2.jpg';
+import Womens_Jumpsuit1 from './WomensProductsImages/Womens_Jumpsuit1.jpg';
+import Womens_Jumpsuit2 from './WomensProductsImages/Womens_Jumpsuit2.jpg';
 
-import Womens_Cardigan1 from './womens_products_images/Womens_Cardigan1.jpg';
-import Womens_Cardigan2 from './womens_products_images/Womens_Cardigan2.jpg';
+import Womens_Cardigan1 from './WomensProductsImages/Womens_Cardigan1.jpg';
+import Womens_Cardigan2 from './WomensProductsImages/Womens_Cardigan2.jpg';
 
-import Womens_Athletic_Shorts1 from './womens_products_images/Womens_Athletic_Shorts1.jpg';
-import Womens_Athletic_Shorts2 from './womens_products_images/Womens_Athletic_Shorts2.jpg';
+import Womens_Athletic_Shorts1 from './WomensProductsImages/Womens_Athletic_Shorts1.jpg';
+import Womens_Athletic_Shorts2 from './WomensProductsImages/Womens_Athletic_Shorts2.jpg';
 
-import Womens_Hooded_Jacket1 from './womens_products_images/Womens_Hooded_Jacket1.jpg';
-import Womens_Hooded_Jacket2 from './womens_products_images/Womens_Hooded_Jacket2.jpg';
+import Womens_Hooded_Jacket1 from './WomensProductsImages/Womens_Hooded_Jacket1.jpg';
+import Womens_Hooded_Jacket2 from './WomensProductsImages/Womens_Hooded_Jacket2.jpg';
 
-import Womens_Tunic1 from './womens_products_images/Womens_Tunic1.jpg';
-import Womens_Tunic2 from './womens_products_images/Womens_Tunic2.jpg';
+import Womens_Tunic1 from './WomensProductsImages/Womens_Tunic1.jpg';
+import Womens_Tunic2 from './WomensProductsImages/Womens_Tunic2.jpg';
 
-const Womens_Products_Data = [
+const WomensProductsData = [
   {
     id: 1,
     productName: "Women's Summer Dress",
@@ -261,4 +261,4 @@ const Womens_Products_Data = [
   },
 ];
 
-export default Womens_Products_Data;
+export default WomensProductsData;

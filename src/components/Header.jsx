@@ -13,11 +13,8 @@ function Header() {
     <header className="header">
       <div className="upper-line"></div>
       <div className='main'>
-        {/* <div className="logo-container">
-          <Link to="/"><img src={logo} alt="Logo" className="logo" /></Link>
-        </div> */}
         <nav className="nav-menu">
-          <div className="nav-item"><Link to="/">Home</Link></div>
+          <div className="nav-item"><Link to="/">HOME</Link></div>
           <div className="nav-item"><Link to="/Mens">MEN</Link></div>
           <div className="nav-item"><Link to="/Womens">WOMEN</Link></div>
           <div className="nav-item">CONTACT US</div>

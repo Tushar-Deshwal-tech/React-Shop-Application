@@ -1,30 +1,35 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./css/Landing_page.css";
 import SlidingImages from "../components/SlidingImages";
 import ShopButton from "../components/ShopButton";
 import {
-  mens_sliding_image,
-  mens_category_image,
-  womens_sliding_image,
-  womens_category_image,
-} from "../components/ImportImages";
+  mens_sliding,
+  mens_category,
+  womens_sliding,
+  womens_category,
+} from "../Data/CategoryData";
 
 function Landing_page() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  const mensfirstThreeImages = mens_category_image.slice(0, 3);
-  const mensnextFourImages = mens_category_image.slice(3);
+  const MensFirstSixImages = mens_category.slice(0, 6); // First 6 objects
+  const MensNextFourImages = mens_category.slice(6); // Next 4 objects
 
-  const womensfirstThreeImages = womens_category_image.slice(0, 3);
-  const womensnextFourImages = womens_category_image.slice(3);
+  const WomensFirstSixImages = womens_category.slice(0, 6); // First 6 objects
+  const WomensNextFourImages = womens_category.slice(6); // Next 4 objects
+
+  function productId(index, category) {
+    const ID = `${category}_${mens_category[index].id}`;
+    console.log(`Clicked Product ID: ${ID}`);
+  }
 
   return (
     <div className="landing-main">
       <div>
-        <SlidingImages images={mens_sliding_image} />
+        <SlidingImages images={mens_sliding} />
       </div>
       <div>
         <ShopButton category={"MEN"} link="/Mens" />
@@ -32,22 +37,32 @@ function Landing_page() {
       <div className="category-text">CATEGORIES</div>
       <div className="category-section">
         <div className="three-column">
-          {mensfirstThreeImages.map((image, index) => (
-            <div className="image">
-              <Link to="/Mens"><img key={index} src={image} alt="Category" /></Link>
+          {MensFirstSixImages.map((item, index) => (
+            <div className="image" key={index}>
+              <img
+                onClick={() => productId(index, "MEN")}
+                src={item.image} // Accessing the `image` property of the object
+                alt={item.category} // Using `category` for the alt text
+              />
             </div>
           ))}
         </div>
         <div className="four-column">
-          {mensnextFourImages.map((image, index) => (
-            <div className="image">
-              <Link to="/Mens"><img key={index} src={image} alt="Category" /></Link>
+          {MensNextFourImages.map((item, index) => (
+            <div className="image" key={index}>
+              <Link to="/Mens">
+                <img
+                  onClick={() => productId(index + 6, "MEN")}
+                  src={item.image} // Accessing the `image` property of the object
+                  alt={item.category} // Using `category` for the alt text
+                />
+              </Link>
             </div>
           ))}
         </div>
       </div>
       <div className="women-section">
-        <SlidingImages images={womens_sliding_image} />
+        <SlidingImages images={womens_sliding} />
       </div>
       <div>
         <ShopButton category={"WOMEN"} />
@@ -55,16 +70,26 @@ function Landing_page() {
       <div className="category-text">CATEGORIES</div>
       <div className="category-section">
         <div className="three-column">
-          {womensfirstThreeImages.map((image, index) => (
-            <div className="image">
-              <Link to="/Womens"><img key={index} src={image} alt="Category" /></Link>
+          {WomensFirstSixImages.map((item, index) => (
+            <div className="image" key={index}>
+              <img
+                onClick={() => productId(index, "WOMEN")}
+                src={item.image} // Accessing the `image` property of the object
+                alt={item.category} // Using `category` for the alt text
+              />
             </div>
           ))}
         </div>
         <div className="four-column">
-          {womensnextFourImages.map((image, index) => (
-            <div className="image">
-              <Link to="/Womens"><img key={index} src={image} alt="Category" /></Link>
+          {WomensNextFourImages.map((item, index) => (
+            <div className="image" key={index}>
+              <Link to="/Womens">
+                <img
+                  onClick={() => productId(index + 6, "WOMEN")}
+                  src={item.image} // Accessing the `image` property of the object
+                  alt={item.category} // Using `category` for the alt text
+                />
+              </Link>
             </div>
           ))}
         </div>
