@@ -56,10 +56,16 @@
     height: 10vh;
 }
 
-.icon-item {
+.icon-item img {
     margin: 0 5px;
-    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
+
+.icon-item img:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
 
 .icon {
     height: 24px;

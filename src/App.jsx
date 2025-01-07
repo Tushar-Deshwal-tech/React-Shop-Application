@@ -5,6 +5,7 @@ import Mens from './pages/Mens';
 import Womens from './pages/Womens';
 import Layout from './Layout';
 import Products from './pages/Products';
+import Cart from './pages/Cart';
 import { ProductsProvider } from "./usecontext/Product_Context";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="Mens" element={<Mens />} />
             <Route path="Womens" element={<Womens />} />
             <Route path="Products" element={<Products />} />
+            <Route path="Cart" element={<Cart />} />
           </Route>
         </Routes>
       </BrowserRouter>

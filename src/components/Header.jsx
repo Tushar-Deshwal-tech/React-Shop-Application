@@ -21,9 +21,7 @@ function Header() {
         </nav>
         <div className="icons-container">
           <div className="icon-item">
-            <div className='cart-box'>
-              <img src={cart} alt="Cart" className="icon" />
-            </div>
+            <Link to="/Cart"><img src={cart} alt="Cart" className="icon" /></Link>
           </div>
           <div className="icon-item">
             <img src={heart} alt="Wishlist" className="icon" />
